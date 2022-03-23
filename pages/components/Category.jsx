@@ -75,7 +75,7 @@ function Category() {
         {avengers.map((movie, index) => (
           <Box key={index}>
             <Text>{movie.Title}</Text>
-            <Image src={movie.Poster} key={index} />
+            <Image src={movie.Poster} alt="MovieImage" />
           </Box>
         ))}
       </Flex>
