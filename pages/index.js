@@ -119,7 +119,7 @@ export default function Home() {
             my="2rem"
           >
             {movies.map((movie, index) => (
-              <Box>
+              <Box key={index}>
                 <Text>{movie.Title}</Text>
                 <Image src={movie.Poster} key={index} />
               </Box>
