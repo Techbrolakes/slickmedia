@@ -71,7 +71,13 @@ function Category() {
   return (
     <>
       <Heading textTransform={"capitalize"}>Avengers Categories</Heading>
-      <Flex flexWrap={"wrap"} justify="space-between" align="center" my="2rem">
+      <Flex
+        flexWrap={"wrap"}
+        justify="space-between"
+        align="center"
+        my="2rem"
+        gap="30px"
+      >
         {avengers.map((movie, index) => (
           <Box key={index}>
             <Text>{movie.Title}</Text>

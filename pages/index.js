@@ -117,6 +117,7 @@ export default function Home() {
             justify="space-between"
             align="center"
             my="2rem"
+            gap="30px"
           >
             {movies.map((movie, index) => (
               <Box key={index}>
